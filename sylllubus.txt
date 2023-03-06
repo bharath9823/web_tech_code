@@ -1,0 +1,13 @@
+CSS Syllubus 
+1)Introduction and implementation
+2)Type's of CSS
+3)Basic styling for text data
+4)Backgrond
+5) Box model
+6) Selectors and combinator
+7) psuedo class
+8) psuedo elements
+9) display property
+10) position property
+11) transform property
+12) transition property

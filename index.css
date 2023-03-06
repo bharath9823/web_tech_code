@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Slack-Lato, Slack-Fractions, appleLogo, sans-serif ;
+}
+section{
+    height: 150vh;
+    width:100vw;
+    background: linear-gradient(rgb(27,114,245),rgb(34,53,122));
+}
+nav{
+    background-color: azure;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 120px ;
+    background: linear-gradient(90deg,rgb(11, 107, 251),rgb(34,53,122));
+}
+nav h1{/*combinator is used here nav is a parent and h1 is child*/
+    font-size: 30px;
+    color: white;
+}
+nav div select{
+    border: none;
+    background-color:transparent;
+    margin: 0px 10px;
+    font-size: 12px;
+}
+nav div a::after{
+    text-decoration: none;
+    font-size: 12px;
+    margin:0px 10px;
+    color: aliceblue;
+    text-decoration: underline;
+    transition: 2s;/*::before and ::after psuedo elements are used to change*/
+    
+
+}
+nav div a:last-child{
+    background-color: rgb(217, 40, 170);
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+header{
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+    padding: 50px 120px;
+    color: white;
+
+}
+header div button{
+    text-decoration: none;
+    border-radius: 15px;
+    padding:7px 15px ;
+    background-color: rgb(217, 40, 170);
+    border:none;
+    font-size: 10px;
+    
+}
+footer
+{
+    display: flex;
+    padding: 30px 120px;
+   /* width: 100vw;*/
+    position: absolute;
+    justify-content:space-evenly ;
+    /*bottom: 0px;
+    padding-top: 20px;*/
+
+}
+footer div{
+    height: 80px;
+    width: 100px;
+    background-color:transparent;
+}
+footer div p{
+    font-size: 12px;
+}
+

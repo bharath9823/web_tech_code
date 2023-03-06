@@ -1,0 +1,118 @@
+/*#first{ 
+    background-color: bisque;
+    width:200px;
+    height:150px;
+    margin:150px 100px 50px 450px;
+    padding: 50px 50px 100px 40px;
+    border-radius: 20px;
+
+    }
+p{
+    color: blue;
+    text-decoration: underline;
+}*/
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+h1{
+    color: rgb(100, 100, 245);
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}   
+section{
+    background-color: rgb(221, 221, 221);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+/*div{
+    height: 300px;
+    width: 300px;
+}*/
+#form_box{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+   /* margin:auto ;*/
+    padding: 10px;
+    box-sizing: border-box;/*used to maintain the box size,it doesnt increse the border size*/
+    box-shadow: 5px 5px 40px;
+    box-shadow: whitesmoke;
+    text-align: center;
+    
+    
+}
+p{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+    
+    
+}
+input{
+    border-radius:5px;
+    width:330px;
+    height:40px;
+    margin-bottom: 15px;
+    border:solid rgba(195, 188, 188, 0.589);
+    padding-left:10px;
+    box-sizing: border-box;
+}
+input:focus{
+    border:solid 2px rgba(67, 67, 160, 0.945);
+    outline: solid 2px rgba(183, 183, 245, 0.945);
+}
+
+#login-but{
+    background-color: rgb(48, 48, 128);
+    border-radius: 5px;
+    height:40px ;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border:none;
+    
+}
+#login-but:hover{
+    background-color: rgb(24, 24, 169);
+}
+a{
+    color: rgb(46, 46, 163);
+    text-decoration: none;
+    /*margin-bottom cant be aplied in anchor tag*/
+
+}
+a:hover{
+
+    
+}
+
+button{
+    height:40px;
+    background-color: rgba(58, 223, 58, 0.774);
+    width:200px;
+    border-radius: 10px;
+    border:none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+ div{
+    display: 
+ }
+
+
+
+button:hover{
+    background-color: darkgreen;
+}

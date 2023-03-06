@@ -1,0 +1,13 @@
+h1{
+    background-color: crimson;
+    display: block;
+
+}
+p{
+    background-color: aqua;
+    
+}
+span{
+    background-color: blueviolet;
+    display:inline
+}
