@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+</head>
+<body>
+    <h1 align="center">FORM CREATION</h1>
+    <hr size="3px" color="red"><!--span-is a inline element used display the content in the single line using the span tag-->
+    <form action="formres.html">
+        <label for="n">Name:</label><input type="text" placeholder="Enter name" id="n"required><br><br>
+       <!-- <label>MALE:</label><input type="checkbox">
+        <label>FEMALE</label><input type="checkbox"><br><br>-->
+        <fieldset>
+            <legend align="center" style="padding-left:30px;">select your gender</legend><!--used for single selective text using the radio buttons in html-->
+            <input type="radio" name="gender" id="m" value="Male"><label for="m">Male</label><br>
+            <input type="radio" name="gender" id="f" value="Female"><label for="f">Female</label><br>
+            <input type="radio" name="gender" id="o" value="Others"><label for="o">Others</label>
+        </fieldset><br><br>
+        <label>Date-time</label><input type="datetime-local"><br><br>
+        <label>Age</label><input type="number"step="1" max="99" min="0"><br><br>
+        <label>phno:</label><input type="tel" placeholder="enter ph no" maxlength="14" value="+91"><br><br>
+        <label>email:</label><input type="email" placeholder="enter email id" required><br><br>
+        <label>Password:</label><input type="password" placeholder="enter password" maxlength="8" required><br><br>
+        <label>upload file:</label><input type="file"><br><br>
+        <label>Enter your linkedin url:</label><input type="url"><br><br>
+        <input type="submit" value="upload">
+        <input type="reset" value="clear data">
+        <fieldset>
+            <input type="checkbox" name="skill" id="p"><label for="p">python </label><br>
+            <input type="checkbox" name="skill" id="j"><label for="j">java </label><br>
+            <input type="checkbox" name="skill" id="h"><label for="h">html </label><br>
+            <input type="checkbox" name="skill" id="c"><label for="c">css </label><br>
+            <input type="checkbox" name="skill" id="j"><label for="j">javascript</label><br>
+            <input type="checkbox" name="skill" id="m"><label for="m">mdb</label>
+        </fieldset>
+    </form>
+</body>
+</html>
+<!--By using the required attribute we can make the input mandatory
+1>id and for is used to link the text to actovate the input from the form
+and written in the line nukmber 17 to 19 and in label name -->

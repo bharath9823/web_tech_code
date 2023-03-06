@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table creation</title>
+</head>
+<body>
+<h1 align="center">TABLE CREATION</h1>
+<hr size="5px" color="black">
+<!--<marquee behavior="alternate" >-->
+<table border="3px" bordercolor="red" bgcolor="yellow" align="center" cellspacing="20px"cellpadding="10px"><!--Border Thickness,we can use align tag also-->
+    <tr>
+        <th>s1 no</th>    <!--th and td doesnt break the line*cell spacing attribute is used to aplly space bw the cells-->
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Institute</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>Chethan</td>
+        <td>Kamuka</td>
+        <td rowspan="4">STU</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td colspan="2">Raja kumar</td><!--table merging done by using colspan="nor of coloumns want to merge" attribute-->
+        <td>vtu</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>Sree</td>    <!-- To merge multiple rows we use rowspan YY-->
+        <td>Charan</td>
+        <td>BITS</td>
+    </tr>
+        
+</table><br><br>
+<table border="3px" bordercolor="red" bgcolor="yellow" align="center"><!--Border Thickness,we can use align tag also-->
+    <tr>
+        <th>s1 no</th>    <!--th and td doesnt break the line*cell spacing attribute is used to aplly space bw the cells-->
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Institute</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>Chethan</td>
+        <td>Kamuka</td>
+        <td>STU</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>Raja</td>
+        <td>kumar</td>
+        <td>vtu</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td colspan="2">Sree Charan</td>
+        <td>BITS</td>
+    </tr>
+        
+</table>
+<!--</marquee>   --> 
+</body>
+</html>
+<!--attributes of table
+*height and width
+*cellspacing-outside the spacing
+*cellpadding-inside the cell 
+*bgcolor
+*border
+*bordercolor-->

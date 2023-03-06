@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width:100vw;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+            position: absolute;
+            top:50%;
+            left:50%;  /*is used to place the object in the center using values -50% fjor both right and left */
+            transform:translate(-50%,-50%);
+            animation-name: anime;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            
+            
+        }
+        @keyframes anime{
+            0%{
+                background-color: gold;
+                transform: scale(1)translate(-50%,-50%);
+                border-radius: 0%;
+            }
+            25%{
+                background-color: blueviolet;
+                transform: scale(1)translate(-50%,-50%);
+                border-radius: 50%;
+            }
+            50%{
+                background-color: green;
+                transform: scale(1)translate(-50%,-50%);
+                border-radius: 0%;
+            }
+            75%{
+                background-color: olive;
+                transform: scale(1)translate(-50%,-50%);
+                border-radius: 50%;
+            }
+            100%{
+                background-color: rgb(230, 16, 51);
+                transform: scale(1)translate(-50%,-50%);
+                border-radius: 0%;
+                
+                
+            }
+        }       
+
+    </style>
+    
+</head>
+<body>
+    <div></div>
+</body>
+</html>

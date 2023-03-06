@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 40px;
+            animation-name: scroll;
+            animation-duration: 6s;
+            position:absolute;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction:alternate-reverse;
+            animation-delay: 3s;
+        }
+        @keyframes scroll{
+            0%{
+                left:-10%;
+            }
+            100%{
+                left:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>scrolling data</h1>
+</body>
+</html>
+<!--normal-0 to 100%
+reverse-100% to 0
+alternate-0 to 100% ->100% to 0
+alternate reverse-100% to 0->0 to 100%-->
